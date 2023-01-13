@@ -1,4 +1,13 @@
-```{r library}
+---
+title: "Untitled"
+output: 
+  md_documenr:
+    variant: markdown_github
+date: "2023-01-12
+
+---
+
+```{r library, message=TRUE, warning=TRUE}
 library(tidyverse)
 library(igraph)
 print("Hello, network!")
